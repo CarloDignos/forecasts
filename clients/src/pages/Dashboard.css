@@ -1,0 +1,99 @@
+/* Dashboard.css */
+
+/* Add styles for the columns */
+.dashboard-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the contents vertically */
+  align-items: center; /* Center the contents horizontally */
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  transition: all 0.8s ease; /* Adding a smooth transition on hover */
+}
+
+/* Add the midnight blue color to the columns on hover */
+.dashboard-card:hover {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+/* Add styles for the icons inside the columns */
+.dashboard-card i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+
+/* Add styles for the count and heading */
+.dashboard-card span.user-count,
+.dashboard-card span.ongoing-events,
+.dashboard-card span.scheduled-events,
+.dashboard-card h3 {
+  display: block;
+}
+
+/* Add styles for the count */
+.dashboard-card span.user-count,
+.dashboard-card span.ongoing-events,
+.dashboard-card span.scheduled-events {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Add styles for the heading */
+.dashboard-card h3 {
+  font-size: 18px;
+}
+
+/* Center the text inside the columns */
+.dashboard-card h3,
+.dashboard-card span {
+  text-align: center;
+}
+
+/* Center the title on the dashboard */
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Override link styles to make them black */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Style links when hovered */
+a:hover {
+  color: black; /* You can add additional hover styles here if needed */
+}
+
+/* Increase the font size of user-icon */
+.user-icon {
+  font-size: 36px; /* Adjust the size as needed */
+}
+
+/* Increase the font size of event-icon */
+.event-icon {
+  font-size: 36px; /* Adjust the size as needed */
+}
+
+/* Styling for count numbers */
+.user-count,
+.ongoing-events,
+.scheduled-events {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+}

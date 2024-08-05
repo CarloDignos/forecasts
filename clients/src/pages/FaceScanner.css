@@ -1,0 +1,19 @@
+.face-recognition-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .video {
+    width: 720px;
+    height: 560px;
+    transform: scaleX(-1); /* Flip the video horizontally if needed */
+  }
+  
+  .canvas {
+    width: 720px;
+    height: 560px;
+    margin-top: 20px; /* Adjust the margin between video and canvas as needed */
+  }

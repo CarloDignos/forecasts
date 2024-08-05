@@ -1,0 +1,95 @@
+/* FaceReg.css */
+.myapp {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 34px;
+  margin: 10px 0;
+}
+
+.appvide {
+  margin: 20px 0;
+}
+
+video {
+  border-radius: 55px;
+}
+
+.appcanvas {
+  position: absolute;
+  top: 210px;
+  right: 218px;
+}
+
+
+p {
+  font-size: 16px;
+  color: #141414;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .myapp {
+    margin: 10px;
+  }
+
+  .appvide {
+    margin: 20px 0;
+  }
+  
+  video {
+    border-radius: 55px;
+  }
+  
+  .appcanvas {
+    position: absolute;
+    top: 210px;
+    right: 218px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+}
+
+
+.btnDownload {
+  background-color: #073f18; /* Button background color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust the padding to your liking */
+  border-radius: 15px; /* Rounded corners */
+  position: absolute;
+    right: 38px;
+    top: 735px;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+  /* Optional: Add a drop shadow to the button */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btnDownload:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lbPage {
+  padding-top: 25px;
+}
+

@@ -1,0 +1,64 @@
+.home__bg {background-image: url(https://img.freepik.com/free-photo/white-chicken-farm_181624-56267.jpg?w=740&t=st=1698815535~exp=1698816135~hmac=748e7dcb276b2d228e4bd1f6b5a2b7b42d13788c8d03c935be65bddbd5135803);
+    
+    height: 500px; /* Adjust the height */
+    width: 550px; /* Adjust the width */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-color: rgba(109, 33, 79, 1.0);
+    border-radius: 25px;
+}
+
+
+
+.home-message-icon {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.full-width-row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .custom-box {
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 200px;
+    width: 100%;
+    height: 600px;
+  }
+    
+  .custom-box1 {
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 100px;
+    width: 100%;
+    height: 600px;
+  }
+   
+  .custom-box2 {
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 200px;
+    width: 100%;
+    height: 600px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .expanded-button {
+    width: 100%;
+    max-width: 450px;
+    min-width: 450px;
+    border-radius: 25px;
+    background-color: green;
+    border-color:green;
+  }

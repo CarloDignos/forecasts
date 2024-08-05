@@ -1,0 +1,115 @@
+
+/* Common Styles */
+.centered-content {
+  margin-bottom: 20px;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Background Container */
+.background-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+    width: 100vw;
+  height: 100vh;
+  
+}
+
+/* Registration Form Container */
+.registration-container {
+  background-color: rgba(128, 128, 128, 0.5); /* Make the background slightly transparent */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px); /* Apply the blur effect */
+  max-width: 600px; /* Adjust the maximum width as needed */
+  width: 80%; /* Make sure the container occupies the full available width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the content */
+}
+
+/* Registration Form */
+.registration-form {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 25px;
+  padding: 8px;
+  margin-bottom: 10px;
+  color: #000000;
+  padding-left: 38px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.checkbox-label {
+  font-weight: normal;
+  margin-left: 5px;
+  color: #000000;
+}
+
+h2 {
+  color: #000000;
+}
+
+/* Styling for the Button component */
+.custom-button {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #007bff; /* Primary color */
+  color: #fff; /* Text color */
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Add this to your AttendeeForm.css or create a separate CSS file */
+.form-icon {
+  position: sticky;
+  transform: translateY(-268%);
+  left: 100px; /* Adjust the left position */
+  padding-left: 14px;
+}
+

@@ -1,0 +1,265 @@
+/* Style for the container div */
+.background-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+
+
+.registration-container {
+  background-color: rgba(128, 128, 128, 0.5); /* Make the background slightly transparent */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px); /* Apply the blur effect */
+  max-width: 600px; /* Adjust the maximum width as needed */
+  width: 80%; /* Make sure the container occupies the full available width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the content */
+}
+
+/* Style for the heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the input container */
+.input-container {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+/* Style for the FontAwesome icons */
+.input-container svg {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: #333b44; /* Change the color to your preferred color */
+}
+
+/* Style for input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 8px 40px 8px 40px; /* Adjust the padding to make space for the icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for placeholder text */
+input[type="text"]::placeholder {
+  color: #333b44; /* Change the color to your preferred color */
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+/* Style for input fields */
+input[type="text"] {
+  flex: 1;
+  padding-left: 40px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+}
+
+/* Style for buttons */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333b44;
+}
+
+/* Style for the image */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Additional styles for the webcam container if needed */
+.webcam {
+  width: 100%;
+  border: none;
+  border-radius: 10%;
+}
+
+.input-inline {
+  text-align: center; /* Center the checkbox and label horizontally */
+  display: flex; /* Use flexbox to center vertically */
+  align-items: center; /* Center vertically */
+}
+
+.input-inline input[type="checkbox"] {
+  margin-right: 10px;
+  margin-bottom: 0;
+  left: 26%;
+  position: relative;
+  margin-top: 12px;
+}
+
+.input-inline label {
+  color: #000000;
+}
+
+/* Style for the container div */
+.webcontainer {
+  position: relative; /* Required for absolute positioning */
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+
+
+/* Style for the capture button */
+.capture-button {
+  position: absolute;
+  top: 350px; /* Adjust the top position as needed */
+  left: 45%; /* Center horizontally */
+  background-color: #18191a; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 50%; /* Make it a circle */
+  padding: 10px 15px; /* Adjust padding as needed */
+  cursor: pointer;
+  outline: none; /* Remove button focus outline */
+}
+
+/* Style for the camera icon */
+.fas.fa-camera {
+  font-size: 24px; /* Adjust icon size as needed */
+  margin: 0;
+  padding: 0;
+}
+
+
+.clear-image-button {
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Change to "block" to center horizontally */
+  font-size: 16px;
+  margin: 1 auto; /* Center horizontally by setting left and right margins to "auto" */
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 95%;
+}
+
+.toggle-camera-button {
+  background-color: #4caf50; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Change to "block" to center horizontally */
+  font-size: 16px;
+  margin: 1 auto; /* Center horizontally by setting left and right margins to "auto" */
+  cursor: pointer;
+  border-radius: 20px;
+  width: 95%;
+}
+
+.submit-button {
+  background-color: #008CBA; /* Blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Change to "block" to center horizontally */
+  font-size: 16px;
+  margin: 1 auto; /* Center horizontally by setting left and right margins to "auto" */
+  cursor: pointer;
+  border-radius: 20px;
+  width: 95%;
+}
+
+/* Add hover effects */
+.clear-image-button:hover, .toggle-camera-button:hover, .submit-button:hover {
+  opacity: 0.8;
+}
+
+.captured-image {
+  max-width: 100%; /* Ensure the image does not exceed its container's width */
+  border: 2px solid #008CBA; /* Add a blue border around the image */
+  border-radius: 10%; /* Add rounded corners to the image */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
+  display: block; /* Make sure the image doesn't have extra space below it */
+  margin: 0 auto; /* Center the image horizontally */
+  margin-top: 20px; /* Add some top margin for spacing */
+
+}
+.center-label {
+  text-align: center; /* Center the text within the label */
+  display: block; /* Ensure the label takes up the full width of its container */
+  margin: 0 auto; /* Center the label horizontally within its parent */
+  width: max-content; /* Make the label's width adjust to its content */
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  position: relative;
+ }
+ 
+ .spinner .dot {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+ }
+ 
+ .spinner .dot::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #18191a;
+ }
+ 
+ @keyframes spin {
+  to {
+   transform: rotate(360deg);
+  }
+ }
+ 
+ .spinner .dot {
+  animation: spin 2s infinite;
+ }
+ 
+ .spinner .dot:nth-child(2) {
+  animation-delay: 100ms;
+ }
+ 
+ .spinner .dot:nth-child(3) {
+  animation-delay: 200ms;
+ }
+ 
+ .spinner .dot:nth-child(4) {
+  animation-delay: 300ms;
+ }
+ 
+ .spinner .dot:nth-child(5) {
+  animation-delay: 400ms;
+ }

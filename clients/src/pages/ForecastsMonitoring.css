@@ -1,0 +1,22 @@
+/* Styling for the overall container */
+.containerForecasts {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  /* Styling for the select dropdown */
+  .select-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the chart */
+  .chart-container {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  

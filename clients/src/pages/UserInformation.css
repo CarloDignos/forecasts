@@ -1,0 +1,227 @@
+/* UserInformation.css */
+.user-information-container {
+  margin-top: 20px;
+  
+}
+
+.table-container {
+  margin: 20px 0;
+  border-radius: 5px;
+  overflow: auto;
+}
+.event-table td {
+  padding: 10px;
+  text-align: center;
+}
+.user-information-table {
+  width: 100%;
+}
+
+/* Style for the search input */
+#searchForm input[type="text"] {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the user status dot */
+.user-status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+/* Define different status colors */
+.user-status.Active {
+  background-color: #5cb85c; /* Green for Active */
+}
+
+.user-status.Inactive {
+  background-color: #d9534f; /* Red for Inactive */
+}
+
+.user-status.Pending {
+  background-color: #f0ad4e; /* Orange for Pending */
+}
+
+/* Additional styles for the user information table */
+.user-information-table thead th {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.user-information-table tbody td {
+  vertical-align: middle;
+  font-size: 16px;
+  text-align: center;
+}
+
+.user-information-table tbody img {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 80%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.user-table .tbody-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px; /* Adjust this height as needed */
+}
+
+/* Add this style to your UserInformation.css file */
+.user-table-container {
+  height: 400px; /* Set the height according to your requirement */
+  overflow: auto; /* Enable scroll if the content overflows the container */
+  
+}
+
+/* Style the fixed table header */
+.user-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f7f7f7; /* Set the background color as needed */
+  z-index: 1; /* Set a higher z-index to keep the header above the content */
+}
+
+/* Center the content in the table cells */
+td.text-center, th.text-center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Center the user-avatar */
+.user-avatar {
+  display: block;
+  margin: 0 auto;
+}
+
+.user-table {
+  border-radius: 25px;
+}
+
+#searchForm {
+  border-radius: 25px;
+}
+
+.add-new-button {
+  border-radius: 25px;
+}
+
+
+/* Add this style to your UserInformation.css file */
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons > button {
+  margin: 0 5px;
+  transition: background-color 0.3s ease; /* Add a transition effect to smooth the color change */
+}
+
+/* Style the button on hover */
+.pagination-buttons > button:hover {
+  background-color: #f0f0f0; /* Set the desired background color for the hover effect */
+  /* You can customize the color to your preference */
+}
+
+.btnDownload {
+  background-color: #073f18; /* Button background color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust the padding to your liking */
+  border-radius: 15px; /* Rounded corners */
+  position: absolute;
+    right: 38px;
+    top: 735px;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+  /* Optional: Add a drop shadow to the button */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btnDownload:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+
+.centered-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.centered-modal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.table-header th {
+  background-color: #0a3d62; /* Header background color */
+  color: white; /* Header text color */
+  font-weight: bold;
+}
+
+/* Style for table rows */
+table.event-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+/* Style for the table rows on hover */
+table.event-table tbody tr:hover {
+  background-color: #0a3d62; /* Hover row background color */
+  color: #fff;
+}
+
+/* Make the table responsive */
+.table-container {
+  overflow-x: auto;
+}
+
+/* Center the content in the table cells */
+td.text-center, th.text-center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Add this style to your UserInformation.css file */
+/* Style the fixed table header */
+.user-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f7f7f7; /* Set the background color as needed */
+  z-index: 1; /* Set a higher z-index to keep the header above the content */
+}
+
+@media (max-width: 600px) {
+  .table-header th {
+    display: none;
+  }
+
+  .event-table tr {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+  }
+
+  .event-table td {
+    display: block;
+    text-align: right;
+  }
+}

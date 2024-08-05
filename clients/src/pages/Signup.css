@@ -1,0 +1,63 @@
+.signup__bg {
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-business-communication-concept_52683-77063.jpg?w=740&t=st=1687609837~exp=1687610437~hmac=caaa2fb13b78b61a3389d52f95aaa01de00caff5a09aa6dac51c62c7b6741585);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.signup-profile-pic__container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup-profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+
+.add-picture-icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: green;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.signup-form-container {
+    max-width: 600px; /* Set the maximum width as needed */
+    min-width: 300px; /* Set the minimum width as needed */
+    margin: 0 auto; /* Center the form horizontally on the page */
+    padding: 20px; /* Add padding for better spacing */
+    background: #ffffff; /* Set a background color for the form */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  }
+  /* Add this class to expand the button container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for the expanded button */
+  .expanded-button {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 25px;
+    background-color: green;
+    border-color: green;
+  }
+  
+  .terms-conditions-group {
+    display: flex;
+    align-items: center;
+  }

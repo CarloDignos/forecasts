@@ -1,0 +1,15 @@
+.sidebar-col {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .message-form-col {
+    padding: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .sidebar-col {
+      margin-bottom: 20px;
+    }
+  }
+  

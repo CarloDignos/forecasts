@@ -1,0 +1,159 @@
+{
+    "Region": "Region 3",
+    "Province": "Tarlac",
+    "Data": [
+        {
+            "Year": 2019,
+            "Quarter": "Jan-Mar",
+            "Chicken_Type": {
+                "Native": 1515636,
+                "Layer": 1351146,
+                "Broiler": 3071143
+            }
+        },
+        {
+            "Year": 2019,
+            "Quarter": "Apr-Jun",
+            "Chicken_Type": {
+                "Native": 1365591,
+                "Layer": 1393899,
+                "Broiler": 3892333
+            }
+        },
+        {
+            "Year": 2019,
+            "Quarter": "Jul-Sep",
+            "Chicken_Type": {
+                "Native": 1527216,
+                "Layer": 1362759,
+                "Broiler": 3413541
+            }
+        },
+        {
+            "Year": 2019,
+            "Quarter": "Oct-Dec",
+            "Chicken_Type": {
+                "Native": 1088342,
+                "Layer": 1403772,
+                "Broiler": 2284021
+            }
+        },
+        {
+            "Year": 2020,
+            "Quarter": "Jan-Mar",
+            "Chicken_Type": {
+                "Native": 1368102,
+                "Layer": 1397926,
+                "Broiler": 2555524
+            }
+        },
+        {
+            "Year": 2020,
+            "Quarter": "Apr-Jun",
+            "Chicken_Type": {
+                "Native": 1540359,
+                "Layer": 1218848,
+                "Broiler": 1771590
+            }
+        },
+        {
+            "Year": 2020,
+            "Quarter": "Jul-Sep",
+            "Chicken_Type": {
+                "Native": 1722668,
+                "Layer": 1221673,
+                "Broiler": 4476167
+            }
+        },
+        {
+            "Year": 2020,
+            "Quarter": "Oct-Dec",
+            "Chicken_Type": {
+                "Native": 1103279,
+                "Layer": 1325423,
+                "Broiler": 2168167
+            }
+        },
+        {
+            "Year": 2021,
+            "Quarter": "Jan-Mar",
+            "Chicken_Type": {
+                "Native": 1386879,
+                "Layer": 1354390,
+                "Broiler": 2173567
+            }
+        },
+        {
+            "Year": 2021,
+            "Quarter": "Apr-Jun",
+            "Chicken_Type": {
+                "Native": 1566231,
+                "Layer": 1354390,
+                "Broiler": 1834667
+            }
+        },
+        {
+            "Year": 2021,
+            "Quarter": "Jul-Sep",
+            "Chicken_Type": {
+                "Native": 1751602,
+                "Layer": 1436466,
+                "Broiler": 3171952
+            }
+        },
+        {
+            "Year": 2021,
+            "Quarter": "Oct-Dec",
+            "Chicken_Type": {
+                "Native": 1123455,
+                "Layer": 1554622,
+                "Broiler": 2046643
+            }
+        },
+        {
+            "Year": 2022,
+            "Quarter": "Jan-Mar",
+            "Chicken_Type": {
+                "Native": 1417932,
+                "Layer": 2701193,
+                "Broiler": 2925902
+            }
+        },
+        {
+            "Year": 2022,
+            "Quarter": "Apr-Jun",
+            "Chicken_Type": {
+                "Native": 1601300,
+                "Layer": 3856214,
+                "Broiler": 2785140
+            }
+        },
+        {
+            "Year": 2022,
+            "Quarter": "Jul-Sep",
+            "Chicken_Type": {
+                "Native": 1841908,
+                "Layer": 3734493,
+                "Broiler": 3489223
+            }
+        },
+        {
+            "Year": 2022,
+            "Quarter": "Oct-Dec",
+            "Chicken_Type": {
+                "Native": 1184025,
+                "Layer": 3448991,
+                "Broiler": 2250663
+            }
+        },
+        {
+            "Year": 2023,
+            "Quarter": "Jan-Mar",
+            "Chicken_Type": {
+                "Native": 1443531,
+                "Layer": 3164109,
+                "Broiler": 2001831
+            }
+        }
+    ]
+}

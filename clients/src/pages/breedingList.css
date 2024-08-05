@@ -1,0 +1,14 @@
+.pagination-contain {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .pagination-contain button {
+    margin: 0 5px; /* Adjust as needed */
+  }
+  
+  .pagination-text1 {
+    margin: 0 10px; /* Adjust as needed */
+  }
+  

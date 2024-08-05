@@ -1,0 +1,61 @@
+/* EventList.css */
+
+/* Styling for the table container */
+.table-container {
+  margin: 20px 0;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+/* Styling for the table */
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for table headers */
+.table-header {
+  background-color: #0a3d62; /* Header background color */
+  color: white;
+  font-weight: bold;
+}
+
+.table-header th {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styling for table rows */
+.event-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.event-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Styling for table data cells */
+.event-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styling for table header in mobile view */
+@media (max-width: 600px) {
+  .table-header th {
+    display: none;
+  }
+
+  .event-table tr {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+  }
+
+  .event-table td {
+    display: block;
+    text-align: right;
+  }
+}

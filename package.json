@@ -1,0 +1,10 @@
+{
+  "name": "Forecasts",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd server && npm run dev\" \"cd clients && npm start\""
+  },
+  "dependencies": {
+    "concurrently": "^6.5.1"
+  }
+}
