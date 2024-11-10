@@ -6,57 +6,57 @@
             "Year": 2019,
             "Quarter": "Jan-Mar",
             "Chicken_Type": {
-                "Native": 1515636,
-                "Layer": 1351146,
-                "Broiler": 3071143
+                "Native": 50,
+                "Layer": 62.5,
+                "Broiler": 75
             },
-            "Native_Percent": 25.524674023333066,
-            "Layer_Percent": 22.754514413705124,
-            "Broiler_Percent": 51.72081156296181
+            "Native_Percent": 20.524674023333066,
+            "Layer_Percent": 23.754514413705124,
+            "Broiler_Percent": 23.72081156296181
         },
         {
             "Year": 2019,
             "Quarter": "Apr-Jun",
             "Chicken_Type": {
-                "Native": 1365591,
-                "Layer": 1393899,
-                "Broiler": 3892333
+                "Native": 50,
+                "Layer": 62.5,
+                "Broiler": 75
             },
-            "Native_Percent": 20.529575125495672,
-            "Layer_Percent": 20.955142672918388,
-            "Broiler_Percent": 58.51528220158594
+            "Native_Percent": 25.529575125495672,
+            "Layer_Percent": 27.955142672918388,
+            "Broiler_Percent": 26.51528220158594
         },
         {
             "Year": 2019,
             "Quarter": "Jul-Sep",
             "Chicken_Type": {
-                "Native": 1527216,
-                "Layer": 1362759,
-                "Broiler": 3413541
+                "Native": 50,
+                "Layer": 62.5,
+                "Broiler": 75
             },
-            "Native_Percent": 24.228002276824554,
-            "Layer_Percent": 21.619029760533646,
-            "Broiler_Percent": 54.15296796264181
+            "Native_Percent": 30.228002276824554,
+            "Layer_Percent": 25.619029760533646,
+            "Broiler_Percent": 29.15296796264181
         },
         {
             "Year": 2019,
             "Quarter": "Oct-Dec",
             "Chicken_Type": {
-                "Native": 1088342,
-                "Layer": 1403772,
-                "Broiler": 2284021
+                "Native": 50,
+                "Layer": 62.5,
+                "Broiler": 75
             },
-            "Native_Percent": 22.787086210921593,
-            "Layer_Percent": 29.39138026877381,
-            "Broiler_Percent": 47.8215335203046
+            "Native_Percent": 23.787086210921593,
+            "Layer_Percent": 25.39138026877381,
+            "Broiler_Percent": 22.8215335203046
         },
         {
             "Year": 2020,
             "Quarter": "Jan-Mar",
             "Chicken_Type": {
-                "Native": 1368102,
-                "Layer": 1397926,
-                "Broiler": 2555524
+                "Native": 2677.303327,
+                "Layer": 2735.667319,
+                "Broiler": 5001.02544
             },
             "Native_Percent": 25.70870302498219,
             "Layer_Percent": 26.269141032540883,
@@ -66,9 +66,9 @@
             "Year": 2020,
             "Quarter": "Apr-Jun",
             "Chicken_Type": {
-                "Native": 1540359,
-                "Layer": 1218848,
-                "Broiler": 1771590
+                "Native": 3014.401174,
+                "Layer": 2385.221135,
+                "Broiler": 3466.908023
             },
             "Native_Percent": 33.997528470156574,
             "Layer_Percent": 26.90140388103903,
@@ -78,9 +78,9 @@
             "Year": 2020,
             "Quarter": "Jul-Sep",
             "Chicken_Type": {
-                "Native": 1722668,
-                "Layer": 1221673,
-                "Broiler": 4476167
+                "Native": 3371.170254,
+                "Layer": 2390.749511,
+                "Broiler": 8759.622309
             },
             "Native_Percent": 23.214960485185113,
             "Layer_Percent": 16.46346853881163,
@@ -90,9 +90,9 @@
             "Year": 2020,
             "Quarter": "Oct-Dec",
             "Chicken_Type": {
-                "Native": 1103279,
-                "Layer": 1325423,
-                "Broiler": 2168167
+                "Native": 2159.058708,
+                "Layer": 2593.782779,
+                "Broiler": 4242.988258
             },
             "Native_Percent": 24.000662189851397,
             "Layer_Percent": 28.833168837310787,
@@ -102,9 +102,9 @@
             "Year": 2021,
             "Quarter": "Jan-Mar",
             "Chicken_Type": {
-                "Native": 1386879,
-                "Layer": 1354390,
-                "Broiler": 2173567
+                "Native": 2714.048924,
+                "Layer": 2650.469667,
+                "Broiler": 4253.555773
             },
             "Native_Percent": 28.21821521613336,
             "Layer_Percent": 27.557175865074647,
@@ -114,9 +114,9 @@
             "Year": 2021,
             "Quarter": "Apr-Jun",
             "Chicken_Type": {
-                "Native": 1566231,
-                "Layer": 1354390,
-                "Broiler": 1834667
+                "Native": 3065.031311,
+                "Layer": 2650.469667,
+                "Broiler": 3590.34638
             },
             "Native_Percent": 32.93661708817636,
             "Layer_Percent": 28.481765983469348,
@@ -126,9 +126,9 @@
             "Year": 2021,
             "Quarter": "Jul-Sep",
             "Chicken_Type": {
-                "Native": 1751602,
-                "Layer": 1436466,
-                "Broiler": 3171952
+                "Native": 3427.792564,
+                "Layer": 2811.088063,
+                "Broiler": 6207.342466
             },
             "Native_Percent": 27.540825343316534,
             "Layer_Percent": 22.58587237147053,
@@ -138,9 +138,9 @@
             "Year": 2021,
             "Quarter": "Oct-Dec",
             "Chicken_Type": {
-                "Native": 1123455,
-                "Layer": 1554622,
-                "Broiler": 2046643
+                "Native": 2198.542074,
+                "Layer": 3042.313112,
+                "Broiler": 4005.172211
             },
             "Native_Percent": 23.77823447738702,
             "Layer_Percent": 32.904002776884134,
@@ -150,9 +150,9 @@
             "Year": 2022,
             "Quarter": "Jan-Mar",
             "Chicken_Type": {
-                "Native": 1417932,
-                "Layer": 2701193,
-                "Broiler": 2925902
+                "Native": 2774.818004,
+                "Layer": 5286.091977,
+                "Broiler": 5725.835616
             },
             "Native_Percent": 20.126707818153143,
             "Layer_Percent": 38.341840279675296,
@@ -162,9 +162,9 @@
             "Year": 2022,
             "Quarter": "Apr-Jun",
             "Chicken_Type": {
-                "Native": 1601300,
-                "Layer": 3856214,
-                "Broiler": 2785140
+                "Native": 3133.659491,
+                "Layer": 7546.407045,
+                "Broiler": 5450.37182
             },
             "Native_Percent": 19.426995237213646,
             "Layer_Percent": 46.78364517059675,
@@ -174,9 +174,9 @@
             "Year": 2022,
             "Quarter": "Jul-Sep",
             "Chicken_Type": {
-                "Native": 1841908,
-                "Layer": 3734493,
-                "Broiler": 3489223
+                "Native": 3604.516634,
+                "Layer": 7308.205479,
+                "Broiler": 6828.225049
             },
             "Native_Percent": 20.31749827700774,
             "Layer_Percent": 41.19399833922078,
@@ -186,9 +186,9 @@
             "Year": 2022,
             "Quarter": "Oct-Dec",
             "Chicken_Type": {
-                "Native": 1184025,
-                "Layer": 3448991,
-                "Broiler": 2250663
+                "Native": 2317.074364,
+                "Layer": 6749.493151,
+                "Broiler": 4404.428571
             },
             "Native_Percent": 17.200467947444963,
             "Layer_Percent": 50.1038906666043,
@@ -198,49 +198,13 @@
             "Year": 2023,
             "Quarter": "Jan-Mar",
             "Chicken_Type": {
-                "Native": 1443531,
-                "Layer": 3164109,
-                "Broiler": 2001831
+                "Native": 2824.913894,
+                "Layer": 6191.994129,
+                "Broiler": 3917.477495
             },
             "Native_Percent": 21.840340928948777,
             "Layer_Percent": 47.872348634255296,
             "Broiler_Percent": 30.287310436795927
-        },
-        {
-            "Year": 2023,
-            "Quarter": "Apr-Jun",
-            "Chicken_Type": {
-                "Native": 3489309,
-                "Layer": 3296476,
-                "Broiler": 2001831
-            },
-            "Native_Percent": 18.840340928948777,
-            "Layer_Percent": 40.872348634255296,
-            "Broiler_Percent": 25.287310436795927
-        },
-        {
-            "Year": 2023,
-            "Quarter": "Jul-Sep",
-            "Chicken_Type": {
-                "Native": 1860188,
-                "Layer": 3176444,
-                "Broiler": 3762611
-            },
-            "Native_Percent": 26.840340928948777,
-            "Layer_Percent": 52.872348634255296,
-            "Broiler_Percent": 35.287310436795927
-        },
-        {
-            "Year": 2023,
-            "Quarter": "Oct-Dec",
-            "Chicken_Type": {
-                "Native": 1195776,
-                "Layer": 3234718,
-                "Broiler": 	2681489
-            },
-            "Native_Percent": 18.840340928948777,
-            "Layer_Percent": 43.872348634255296,
-            "Broiler_Percent": 27.287310436795927
         }
     ]
 }

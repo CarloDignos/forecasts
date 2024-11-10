@@ -27,10 +27,10 @@ router.post('/breedingRegister', async (req, res) => {
         multiplier = 250;
         break;
       case 'Broiler':
-        multiplier = 180;
+        multiplier = 300;
         break;
       case 'Layer':
-        multiplier = 150;
+        multiplier = 200;
         break;
       default:
         multiplier = 1; // Default multiplier in case the chicken type doesn't match

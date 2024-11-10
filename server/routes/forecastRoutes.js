@@ -31,7 +31,22 @@ router.get('/getForecast', (req, res) => {
         percentage = 1; // Default percentage in case the chicken type doesn't match
     }
 
-    const forecastValue = Math.round((100 / percentage) * totalPerBatch);
+      let percentagePerChickentType;
+      switch (selectedChicken) {
+        case 'Native':
+          percentagePerChickentType = 22;
+          break;
+        case 'Layer':
+          percentagePerChickentType = 24;
+          break;
+        case 'Broiler':
+          percentagePerChickentType = 23;
+          break;
+        default:
+          percentagePerChickentType = 1; // Default percentage in case the chicken type doesn't match
+      }
+
+    const forecastValue = Math.round((percentagePerChickentType / percentage) * totalPerBatch);
 
     return {
       Year: item.Year,

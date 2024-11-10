@@ -96,7 +96,7 @@ const EggProductionForecast = () => {
         series: [{
           data: quarterlyData.map(item => item.forecast),
           type: 'line',
-          areaStyle: {}, // This line enables the area chart
+          //areaStyle: {}, // This line enables the area chart
           label: {
             show: true,
             position: 'top',
