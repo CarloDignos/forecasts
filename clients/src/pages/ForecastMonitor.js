@@ -175,7 +175,7 @@ const EggProductionForecast = () => {
   
 
   const currentYear = new Date().getFullYear();
-  const years = Array.from({ length: 5 }, (_, i) => currentYear - i);
+  const years = Array.from({ length: 6 }, (_, i) => currentYear - i);
 
   const uniqueBreeding = Array.from(new Set(breeding.map((chicken) => chicken.selectedChicken)));
 

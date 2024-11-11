@@ -3,7 +3,7 @@
     "Province": "Tarlac",
     "Data": [
         {
-            "Year": 2019,
+            "Year": 2020,
             "Quarter": "Jan-Mar",
             "Chicken_Type": {
                 "Native": 50,
@@ -15,7 +15,7 @@
             "Broiler_Percent": 23.72081156296181
         },
         {
-            "Year": 2019,
+            "Year": 2,
             "Quarter": "Apr-Jun",
             "Chicken_Type": {
                 "Native": 50,
@@ -27,7 +27,7 @@
             "Broiler_Percent": 26.51528220158594
         },
         {
-            "Year": 2019,
+            "Year": 2020,
             "Quarter": "Jul-Sep",
             "Chicken_Type": {
                 "Native": 50,
@@ -39,7 +39,7 @@
             "Broiler_Percent": 29.15296796264181
         },
         {
-            "Year": 2019,
+            "Year": 2020,
             "Quarter": "Oct-Dec",
             "Chicken_Type": {
                 "Native": 50,
@@ -51,7 +51,7 @@
             "Broiler_Percent": 22.8215335203046
         },
         {
-            "Year": 2020,
+            "Year": 2021,
             "Quarter": "Jan-Mar",
             "Chicken_Type": {
                 "Native": 2677.303327,
@@ -63,7 +63,7 @@
             "Broiler_Percent": 48.02215594247693
         },
         {
-            "Year": 2020,
+            "Year": 2021,
             "Quarter": "Apr-Jun",
             "Chicken_Type": {
                 "Native": 3014.401174,
@@ -75,7 +75,7 @@
             "Broiler_Percent": 39.101067648804396
         },
         {
-            "Year": 2020,
+            "Year": 2021,
             "Quarter": "Jul-Sep",
             "Chicken_Type": {
                 "Native": 3371.170254,
@@ -87,7 +87,7 @@
             "Broiler_Percent": 60.32157097600326
         },
         {
-            "Year": 2020,
+            "Year": 2021,
             "Quarter": "Oct-Dec",
             "Chicken_Type": {
                 "Native": 2159.058708,
@@ -99,7 +99,7 @@
             "Broiler_Percent": 47.166168972837816
         },
         {
-            "Year": 2021,
+            "Year": 2022,
             "Quarter": "Jan-Mar",
             "Chicken_Type": {
                 "Native": 2714.048924,
@@ -111,7 +111,7 @@
             "Broiler_Percent": 44.224608918792
         },
         {
-            "Year": 2021,
+            "Year": 2022,
             "Quarter": "Apr-Jun",
             "Chicken_Type": {
                 "Native": 3065.031311,
@@ -123,7 +123,7 @@
             "Broiler_Percent": 38.581616928354286
         },
         {
-            "Year": 2021,
+            "Year": 2022,
             "Quarter": "Jul-Sep",
             "Chicken_Type": {
                 "Native": 3427.792564,
@@ -135,7 +135,7 @@
             "Broiler_Percent": 49.87330228521294
         },
         {
-            "Year": 2021,
+            "Year": 2022,
             "Quarter": "Oct-Dec",
             "Chicken_Type": {
                 "Native": 2198.542074,
@@ -147,7 +147,7 @@
             "Broiler_Percent": 43.31776274572885
         },
         {
-            "Year": 2022,
+            "Year": 2023,
             "Quarter": "Jan-Mar",
             "Chicken_Type": {
                 "Native": 2774.818004,
@@ -159,7 +159,7 @@
             "Broiler_Percent": 41.53145190217156
         },
         {
-            "Year": 2022,
+            "Year": 202,
             "Quarter": "Apr-Jun",
             "Chicken_Type": {
                 "Native": 3133.659491,
