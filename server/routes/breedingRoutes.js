@@ -24,13 +24,13 @@ router.post('/breedingRegister', async (req, res) => {
     let multiplier;
     switch (selectedChicken) {
       case 'Native':
-        multiplier = 250;
+        multiplier = 200;
         break;
       case 'Broiler':
         multiplier = 300;
         break;
       case 'Layer':
-        multiplier = 200;
+        multiplier = 250;
         break;
       default:
         multiplier = 1; // Default multiplier in case the chicken type doesn't match

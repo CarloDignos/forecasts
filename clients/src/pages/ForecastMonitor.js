@@ -18,8 +18,8 @@ const EggProductionForecast = () => {
 
   const percentageByChicken = {
     Native: 0.1,
-    Layer: 0.42,
-    Broiler: 0.2,
+    Layer: 0.1,
+    Broiler: 0.1,
   };
 
   useEffect(() => {
@@ -174,8 +174,8 @@ const EggProductionForecast = () => {
   };
   
 
-  const currentYear = 2028;
-  const years = Array.from({ length: 5 }, (_, i) => currentYear - i);
+  const currentYear = 2031;
+  const years = Array.from({ length: 8 }, (_, i) => currentYear - i);
 
   const uniqueBreeding = Array.from(new Set(breeding.map((chicken) => chicken.selectedChicken)));
 
