@@ -10,6 +10,7 @@ const varietyRoutes = require('./routes/varietyRoutes');
 const breedingRoutes = require('./routes/breedingRoutes');
 const healthRoutes = require('./routes/healthRoutes');
 const forecastRoutes = require('./routes/forecastRoutes')
+const eggCollectionRoutes = require('./routes/eggCollectionRoutes');
 const fs = require('fs');
 const path = require('path');
 
@@ -30,6 +31,7 @@ app.use('/variety', varietyRoutes);
 app.use('/breeding', breedingRoutes);
 app.use('/forecast', forecastRoutes);
 app.use('/health', healthRoutes);
+app.use('/eggCollection', eggCollectionRoutes);
 
 
 // Middleware

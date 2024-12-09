@@ -2,7 +2,8 @@
   "name": "Forecasts",
   "version": "1.0.0",
   "scripts": {
-    "start": "concurrently \"cd server && npm run dev\" \"cd clients && npm start\""
+    "start": "concurrently \"cd server && npm run dev\" \"cd clients && npm start\"",
+    "install-all": "concurrently \"cd server && npm install\" \"cd clients && npm install --force\""
   },
   "dependencies": {
     "concurrently": "^6.5.1"
